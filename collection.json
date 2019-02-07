@@ -1,0 +1,1002 @@
+{
+"id": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"name": "QATouch API",
+"description": "",
+"auth": null,
+"events": null,
+"variables": [],
+"order": [
+"8ba73a62-8f27-466e-be42-9dc67cd41eda"
+],
+"folders_order": [
+"414550a9-5aa3-4178-ad00-e54a1461986e",
+"ff761d24-bbe7-4d12-becd-e087818afc2a",
+"339c6f63-8800-4906-93e8-cd0a65ed938f",
+"68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"10b5e567-fdd1-4f79-b21e-faaaa98b94e0"
+],
+"folders": [
+{
+"id": "9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"name": "Defects",
+"description": "",
+"auth": null,
+"events": null,
+"collection": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folder": null,
+"order": [
+"fda4e6dc-5272-42dd-b594-9de5849476f2",
+"3db0fdfb-5046-4cd7-9ded-0f7abae4fb77",
+"8890b337-828a-4b10-ad89-00214f2e1474",
+"19f488d1-328b-438e-b6c7-9f25a9458389",
+"d7e4ce22-d649-4f15-b4a5-936d42bb3a05",
+"c3404d89-8c1c-4360-adac-5c778c0aae7f"
+],
+"folders_order": [],
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folderId": "9822dab4-bc2b-4edf-86bb-1d923cc8befe"
+},
+{
+"id": "339c6f63-8800-4906-93e8-cd0a65ed938f",
+"name": "Milestones",
+"description": "",
+"auth": null,
+"events": null,
+"collection": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folder": null,
+"order": [
+"b316dd2c-4f86-460c-8ac4-007368248723",
+"c383dbcf-8133-48a6-a95f-eb582991043c"
+],
+"folders_order": [],
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folderId": "339c6f63-8800-4906-93e8-cd0a65ed938f"
+},
+{
+"id": "414550a9-5aa3-4178-ad00-e54a1461986e",
+"name": "Projects",
+"description": "",
+"auth": null,
+"events": [
+{
+"listen": "prerequest",
+"script": {
+"id": "e75071fc-0a77-4233-a4f3-67ad55f480a5",
+"type": "text/javascript",
+"exec": [
+""
+]
+}
+},
+{
+"listen": "test",
+"script": {
+"id": "3eead284-5633-4c66-a083-13c0ed1158cf",
+"type": "text/javascript",
+"exec": [
+""
+]
+}
+}
+],
+"collection": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folder": null,
+"order": [
+"9ce98c37-19ef-4871-a5c4-aead3f029718",
+"55305e2f-e68c-4a9d-9470-cdaf85be3c90"
+],
+"folders_order": [],
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folderId": "414550a9-5aa3-4178-ad00-e54a1461986e"
+},
+{
+"id": "10b5e567-fdd1-4f79-b21e-faaaa98b94e0",
+"name": "Requirements",
+"description": "",
+"auth": null,
+"events": null,
+"collection": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folder": null,
+"order": [
+"00edb711-95fb-402d-9c4c-ea9d618932a5",
+"ba53cf3c-8b85-4285-8f82-e6b650ca6ee0"
+],
+"folders_order": [],
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folderId": "10b5e567-fdd1-4f79-b21e-faaaa98b94e0"
+},
+{
+"id": "ff761d24-bbe7-4d12-becd-e087818afc2a",
+"name": "Test Cases",
+"description": "",
+"auth": null,
+"events": null,
+"collection": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folder": null,
+"order": [
+"f2724b9e-cbee-4e6a-be1c-c7333d12172b",
+"65dda210-e98e-42da-a4a6-3b311b9facd4"
+],
+"folders_order": [],
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folderId": "ff761d24-bbe7-4d12-becd-e087818afc2a"
+},
+{
+"id": "68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"name": "Test Runs",
+"description": "",
+"auth": null,
+"events": null,
+"collection": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folder": null,
+"order": [
+"84149393-8d39-495b-a9ed-16b41c6c97eb",
+"bae3b0b9-fab9-48ba-bfc7-cfa286b7b274",
+"008ea0de-55ac-40b3-9279-41fb66ae0c64",
+"e676a736-5750-43bb-b31e-fad50652863e",
+"3715d937-c221-4fa9-b046-af963d8f1f22",
+"3d905819-2d7f-4275-a224-38249ea9c110"
+],
+"folders_order": [],
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"folderId": "68eac63f-c64f-402a-ac8b-b4ba02f2f451"
+}
+],
+"requests": [
+{
+"id": "008ea0de-55ac-40b3-9279-41fb66ae0c64",
+"name": "Get all the Test Runs Results based on Test Run key",
+"url": "lumen.qatouchapi.com/api/v1/testRunResults/B8X/gQL",
+"description": "lumen.qatouchapi.com/api/v1/testRun/result/history/{projectID}/{testRunID}/{testRunResultID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n2.test-run-id\n3.test-run-result-id\n\nreturns\n1.history-key\n2.title\n3.status\n4.comments\n5.assigned-user\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [],
+"auth": null,
+"events": null,
+"folder": "68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "00edb711-95fb-402d-9c4c-ea9d618932a5",
+"name": "Get all Requirements for the Projects",
+"url": "lumen.qatouchapi.com/api/v1/getAllRequirements/B8X",
+"description": "//getAllDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "10b5e567-fdd1-4f79-b21e-faaaa98b94e0",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "19f488d1-328b-438e-b6c7-9f25a9458389",
+"name": "Get all Severity for the defect",
+"url": "lumen.qatouchapi.com/api/v1/defects/severity",
+"description": "//getAllDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "3715d937-c221-4fa9-b046-af963d8f1f22",
+"name": "Get all the status available",
+"url": "lumen.qatouchapi.com/api/v1/testRuns/getAvailableStatuses",
+"description": "/testRuns/getAvailableStatuses\n\nRequires two headers\n1. api-token\n2. domain\n\nreturns\n1.status-key\n2.status\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"key": "api-token",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70",
+"description": "",
+"type": "text",
+"enabled": true
+},
+{
+"key": "domain",
+"value": "dckap",
+"description": "",
+"type": "text",
+"enabled": true
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [],
+"auth": null,
+"events": null,
+"folder": "68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "3d905819-2d7f-4275-a224-38249ea9c110",
+"name": "Updating the status of the Test Run Results",
+"url": "lumen.qatouchapi.com/api/v1/testRunResults/status?status=passed&project=B8X&test_run=n87&run_result=vnvp",
+"description": "/testRunResults/status/\n\nRequires two headers\n1. api-token\n2. domain\n\nRequired params\n1.status\n2.project\n3.test_run\n4.run_result\n\nreturns\n1.status-key\n2.status\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "PATCH",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "status",
+"value": "passed",
+"equals": true,
+"description": "",
+"enabled": true
+},
+{
+"key": "project",
+"value": "B8X",
+"equals": true,
+"description": "",
+"enabled": true
+},
+{
+"key": "test_run",
+"value": "n87",
+"equals": false,
+"description": "",
+"enabled": true
+},
+{
+"key": "run_result",
+"value": "vnvp",
+"description": "",
+"enabled": true
+}
+],
+"auth": null,
+"events": null,
+"folder": "68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "3db0fdfb-5046-4cd7-9ded-0f7abae4fb77",
+"name": "Get all status for the defect",
+"url": "lumen.qatouchapi.com/api/v1/defects/status",
+"description": "//getAllDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "55305e2f-e68c-4a9d-9470-cdaf85be3c90",
+"name": "Get total number of projects available for the domain",
+"url": "lumen.qatouchapi.com/api/v1/count/allProjects",
+"description": "//getAllDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "414550a9-5aa3-4178-ad00-e54a1461986e",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "65dda210-e98e-42da-a4a6-3b311b9facd4",
+"name": "Get total number of Test Cases for the project",
+"url": "lumen.qatouchapi.com/api/v1/count/allTestCases/M7",
+"description": "/count/allTestCases/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "ff761d24-bbe7-4d12-becd-e087818afc2a",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "84149393-8d39-495b-a9ed-16b41c6c97eb",
+"name": "Get total number of Test Runs for the project",
+"url": "lumen.qatouchapi.com/api/v1/count/allTestRuns/M7",
+"description": "/count/allTestRuns/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "8890b337-828a-4b10-ad89-00214f2e1474",
+"name": "Get all Priority for the defect",
+"url": "lumen.qatouchapi.com/api/v1/defects/priority",
+"description": "//getAllDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "8ba73a62-8f27-466e-be42-9dc67cd41eda",
+"name": "Get Current User",
+"url": "lumen.qatouchapi.com/api/v1/auth",
+"description": "Required two headers\n1. api-token\n2. domain",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"key": "api-token",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70",
+"description": "",
+"type": "text",
+"enabled": true
+},
+{
+"key": "domain",
+"value": "dckap",
+"description": "",
+"type": "text",
+"enabled": true
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [],
+"auth": null,
+"events": null,
+"folder": null,
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "9ce98c37-19ef-4871-a5c4-aead3f029718",
+"name": "Get all projects of the domain",
+"url": "lumen.qatouchapi.com/api/v1/getAllProjects",
+"description": "/getAllProjects\n\nRequired two headers\n1. api-token\n2. domain\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"key": "api-token",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70",
+"description": "",
+"type": "text",
+"enabled": true
+},
+{
+"key": "domain",
+"value": "dckap",
+"description": "",
+"type": "text",
+"enabled": true
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [],
+"auth": null,
+"events": null,
+"folder": "414550a9-5aa3-4178-ad00-e54a1461986e",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "b316dd2c-4f86-460c-8ac4-007368248723",
+"name": "Get all Milestone for a project",
+"url": "lumen.qatouchapi.com/api/v1/getAllMilestones/M7",
+"description": "/getAllMilestones/{projectID}[/{status}]\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n2.status (open,completed,upcoming)\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [],
+"auth": null,
+"events": null,
+"folder": "339c6f63-8800-4906-93e8-cd0a65ed938f",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "ba53cf3c-8b85-4285-8f82-e6b650ca6ee0",
+"name": "Get total number of all Requirement for the project ",
+"url": "lumen.qatouchapi.com/api/v1/count/allRequirements/M7",
+"description": "/count/allDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "10b5e567-fdd1-4f79-b21e-faaaa98b94e0",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "bae3b0b9-fab9-48ba-bfc7-cfa286b7b274",
+"name": "Get all the Test Runs for the project",
+"url": "lumen.qatouchapi.com/api/v1/getAllTestRuns/B8X",
+"description": "/getAllTestRuns/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "c3404d89-8c1c-4360-adac-5c778c0aae7f",
+"name": "Get total number of all Defects for the project ",
+"url": "lumen.qatouchapi.com/api/v1/count/allDefects/M7",
+"description": "/count/allDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "c383dbcf-8133-48a6-a95f-eb582991043c",
+"name": "Get total number of Milestones for the domain",
+"url": "lumen.qatouchapi.com/api/v1/count/allMilestones/M7",
+"description": "/count/allMilestones/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n2.status (open,completed,upcoming)\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "339c6f63-8800-4906-93e8-cd0a65ed938f",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "d7e4ce22-d649-4f15-b4a5-936d42bb3a05",
+"name": "Get all Environment for the defect",
+"url": "lumen.qatouchapi.com/api/v1/defects/environment",
+"description": "//getAllDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "e676a736-5750-43bb-b31e-fad50652863e",
+"name": "Get all the History of the Test Run results",
+"url": "lumen.qatouchapi.com/api/v1/testRunResults/history/B8X/gQL/M3zl",
+"description": "/testRunResults/history//{projectID}/{testRunID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n2.test-run-id\n\nreturns\n1.run-key\n2.title\n3.status\n4.assigned-user\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"key": "api-token",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70",
+"description": "",
+"type": "text",
+"enabled": true
+},
+{
+"key": "domain",
+"value": "dckap",
+"description": "",
+"type": "text",
+"enabled": true
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [],
+"auth": null,
+"events": null,
+"folder": "68eac63f-c64f-402a-ac8b-b4ba02f2f451",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "f2724b9e-cbee-4e6a-be1c-c7333d12172b",
+"name": "Get all Test Cases for a Project",
+"url": "lumen.qatouchapi.com/api/v1/getAllTestCases/M7",
+"description": "/getAllTestCases/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [],
+"auth": null,
+"events": null,
+"folder": "ff761d24-bbe7-4d12-becd-e087818afc2a",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+},
+{
+"id": "fda4e6dc-5272-42dd-b594-9de5849476f2",
+"name": "Get all defects for a project",
+"url": "lumen.qatouchapi.com/api/v1/getAllDefects/Rd",
+"description": "//getAllDefects/{projectID}\n\nRequires two headers\n1. api-token\n2. domain\n\nRequires in the request url\n1.project-key\n\nFor Pagination appened\n&page=5",
+"data": null,
+"dataMode": null,
+"headerData": [
+{
+"description": "",
+"enabled": true,
+"key": "api-token",
+"type": "text",
+"value": "a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70"
+},
+{
+"description": "",
+"enabled": true,
+"key": "domain",
+"type": "text",
+"value": "dckap"
+}
+],
+"method": "GET",
+"pathVariableData": [],
+"queryParams": [
+{
+"key": "page",
+"value": "5",
+"description": "",
+"enabled": false
+}
+],
+"auth": null,
+"events": null,
+"folder": "9822dab4-bc2b-4edf-86bb-1d923cc8befe",
+"currentHelper": null,
+"helperAttributes": null,
+"collectionId": "ccf7ea8b-2742-4132-9c72-b48f31da48c3",
+"headers": "api-token: a414b44a2449963aa7f307b1d6c61a2b7013c026950cd37745d5aaee3645ed70\ndomain: dckap\n",
+"pathVariables": []
+}
+]
+}
